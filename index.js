@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $("dataTable").DataTable();
+} );
+
 // Get references to each tbody element (date, city, state, country, shape, and button)
 var $tbody = document.querySelector("#table-body");
 var $dateInput = document.querySelector("#date-input");
